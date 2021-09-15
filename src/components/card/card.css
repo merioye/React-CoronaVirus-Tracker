@@ -1,0 +1,41 @@
+.card{
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px -13px black;
+    border-radius: 30px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    cursor: pointer;
+}
+.card h4{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #858585;
+}
+.card h1{
+    margin-top: 15px;
+}
+.card p{
+    margin-top: 10px;
+}
+
+.card:hover{
+    transform: scale(1.2,1.2);
+}
+
+
+
+
+
+
+
+
+
+/* ############### Responsive style ################## */
+@media only screen and (max-width:450px){
+    .card:hover{
+        transform: scale(1.05,1.05);
+    }
+}

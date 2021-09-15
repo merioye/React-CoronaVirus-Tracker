@@ -1,7 +1,16 @@
 import React from 'react';
+import CovidContextProvider from './context/CovidContextProvider';
+import './App.css';
 
 const App = ()=>{
-    return <h1>App</h1>
+    return(
+        <>
+            <div className='main-container'>
+                <CovidContextProvider></CovidContextProvider>
+            </div>
+            
+        </>
+    );
 }
 
 export default App;
